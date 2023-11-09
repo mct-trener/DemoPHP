@@ -5,8 +5,8 @@ echo "Hostname: " . $hostname . "<br>";
 $startTime = microtime(true); // Get the current time
 
 // Perform CPU-intensive computations
-for ($i = 0; $i < 100000000; $i++) {
-   $result = sqrt($i);
+for ($i = 1; $i <= 1000000; $i++) {
+   $result = log($i);
 }
 
 $endTime = microtime(true); // Get the end time
